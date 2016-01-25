@@ -11,8 +11,8 @@ var array = [
 
 var t = array
     .map((obj) => obj)
-    .filter((obj) => obj.foo() !== 'bar');
+    .filter((obj) => obj.foo() !== 'bar')
+    .sort((prev, current) => prev.foo() > current.foo());
 
 
-
-console.log(t);
+console.log(t[0].foo());

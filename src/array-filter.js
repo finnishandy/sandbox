@@ -3,16 +3,18 @@
  */
 
 var array = [
-    {"foo": function() {return 'bar'}},
-    {"foo": function() {return 'foo'}},
-    {"foo": function() {return 'steven'}}
+    {name: "PROXY", value: {"foo": function() {return 'bar'}}},
+    {name: "", value: {"foo": function() {return 'foo'}}},
+    {name: "", value: {"foo": function() {return 'steven'}}}
 ];
 
-
+/*
 var t = array
     .map((obj) => obj)
     .filter((obj) => obj.foo() !== 'bar')
     .sort((prev, current) => prev.foo() > current.foo());
+*/
 
+var t = array.filter((obj) => obj.name !== "PROXY").map((obj) => obj.value.foo())
 
-console.log(t[0].foo());
+console.log(t);

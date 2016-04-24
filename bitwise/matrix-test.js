@@ -12,7 +12,9 @@ https://msdn.microsoft.com/en-us/library/t7f48wx9(v=vs.94).aspx
 
     PRAY!!!!
 
-    And be yourself! xx
+    And be yourself!
+
+    Remember.. what's confident? Wtf is confident?
 
  */
 

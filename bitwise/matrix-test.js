@@ -4,7 +4,14 @@
 https://msdn.microsoft.com/en-us/library/t7f48wx9(v=vs.94).aspx
 //plane = factor ^ 2
 
+/*
+    Planning: Learn how to do the binary manipulation. Don't do it if you don't know how. Stop wasting your time.
+    Go back with the program and do the possible solution. Not trying to overdo it.
+    You can do this champ.
 
+
+
+ */
 
 var maxnumber = 2147483647;
 

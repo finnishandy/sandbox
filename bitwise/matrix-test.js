@@ -8,10 +8,23 @@ https://msdn.microsoft.com/en-us/library/t7f48wx9(v=vs.94).aspx
 
 var maxnumber = 2147483647;
 
-var mask = 2147483647;
+var mask = 2147483647 - 15;
 
 var t = 255;
 
+var x = 48;
+
+x <<= 1;
+
+x >>=1;
+
+mask &= x;
+
+console.log('original: ' + x );
+console.log('orig bin: ' + (x >> 3).toString(2));
+console.log('mask bin: ' + (mask).toString(2));
+
+/*
 console.log((8 + 32).toString(2));
 console.log((32).toString(2));
 console.log('res: ' + (mask ^ t).toString(2))
@@ -38,3 +51,4 @@ console.log(parseInt((t ).toString(2).substring(8, t.length ), 2));
 console.log(parseInt((t ).toString(2).substring(8, t.length ), 2));
 
 console.log(14 << 2);
+    */

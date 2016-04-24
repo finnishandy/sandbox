@@ -16,6 +16,8 @@ https://msdn.microsoft.com/en-us/library/t7f48wx9(v=vs.94).aspx
 
     Remember.. what's confident? Wtf is confident?
 
+    Use cookies instead of url.
+
  */
 
 var maxnumber = 2147483647;
